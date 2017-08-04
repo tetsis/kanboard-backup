@@ -20,6 +20,6 @@ DAY=`LANG=en date "+%d"`
 
 cd /var/www/html
 mkdir -p archive/${YEAR}/${MONTH}/${DAY}
-cp -a kanboard/* archive/${YEAR}/${MONTH}/${DAY}/
+cp -a kanboard archive/${YEAR}/${MONTH}/${DAY}/
 
 # できれば読み取り専用にしたい
