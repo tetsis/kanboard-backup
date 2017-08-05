@@ -2,4 +2,4 @@
 
 PWD=`pwd`
 
-echo "  0  6  *  *  * root ${PWD}/server.sh" >> /etc/crontab
+echo "  0  3  *  *  * root ${PWD}/server.sh" >> /etc/crontab
