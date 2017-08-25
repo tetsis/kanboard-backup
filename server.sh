@@ -8,10 +8,12 @@ mkdir /root/kanboard-backup
 cd /root/kanboard-backup
 
 cp -a /var/www/html/kanboard .
+cp -a /var/www/html/archive .
 
-tar zcvf kanboard-data-${DATE}.tar.gz kanboard
+tar zcvf kanboard-data-${DATE}.tar.gz kanboard archive
 
 rm -rf kanboard
+rm -rf archive
 
 # Archive
 YEAR=`LANG=en date "+%Y"`

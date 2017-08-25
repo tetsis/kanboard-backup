@@ -10,4 +10,4 @@ cd /root/kanboard-backup
 rm ${FILENAME}
 
 #sshpass -p${PASSWORD} scp -o StrictHostKeyChecking=no root@${HOSTNAME}:/root/kanboard-backup/${FILENAME} .
-sshpass scp -o StrictHostKeyChecking=no root@${HOSTNAME}:/root/kanboard-backup/${FILENAME} .
+scp -o StrictHostKeyChecking=no root@${HOSTNAME}:/root/kanboard-backup/${FILENAME} .
