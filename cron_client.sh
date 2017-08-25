@@ -1,7 +1,7 @@
 #!/bin/sh
 
 CMDNAME=`basename $0`
-if [ $# -ne 2 ]; then
+if [ $# -ne 1 ]; then
     echo "Usage: $CMDNAME hostname" 1>&2
     exit 1
 fi
